@@ -27,12 +27,12 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>deploymentRepo</id>
             <name>Internal Releases</name>
             <url>http://192.168.0.121:8081/repository/maven-REL/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>deploymentRepo</id>
             <name>Internal Snapshot Releases</name>
             <url>http://192.168.0.121:8081/repository/maven-SNAP/</url>
         </snapshotRepository>
